@@ -10,9 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var questionLabel: UILabel!
+    @IBOutlet weak var answerTextField: UITextField!
+    @IBOutlet weak var validationLabel: UILabel!
+    @IBOutlet weak var finalMessageLabel: UILabel!
+    @IBOutlet weak var scoreLabel: UILabel!
+   
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
 
 
